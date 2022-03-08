@@ -18,6 +18,7 @@ public class backjoon10430 {
 	int e = ((a%c)+(b%c))%c;
 	int f = (a*b)%c;
 	int g = ((a%c)*(b*c))%c;	
+	
 	System.out.println(d);
 	System.out.println(e);
 	System.out.println(f);
