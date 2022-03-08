@@ -21,16 +21,16 @@ public class baekjoon2562 {
 		}
 		
 		int max = arr[0];
-		int index = 0;
+		int count = 0;
 		
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] > max) {
 				max = arr[i];
-				index = i+1;
+				count = i+1;
 			}
 		}
 		
 		System.out.println(max);
-		System.out.println(index);
+		System.out.println(count);
 	}
 }
