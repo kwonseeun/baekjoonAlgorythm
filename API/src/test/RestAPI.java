@@ -15,7 +15,7 @@ public class RestAPI {
 		try {
 			StringBuilder vStringBuilder = new StringBuilder();
 			String vStringLine;
-			
+			 
 			URL vURL = new URL("https://reqres.in/api/users");
 			HttpURLConnection vHttpURLConnection = (HttpURLConnection) vURL.openConnection();
 			
