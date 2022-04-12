@@ -15,10 +15,10 @@ public class RestAPI {
 		try {
 			StringBuilder vStringBuilder = new StringBuilder();
 			String vStringLine;
-			 
+			  
 			URL vURL = new URL("https://reqres.in/api/users");
 			HttpURLConnection vHttpURLConnection = (HttpURLConnection) vURL.openConnection();
-			
+			 
 			vHttpURLConnection.setConnectTimeout(5000);
 			vHttpURLConnection.setReadTimeout(5000);
 			vHttpURLConnection.setRequestProperty("User-agent","Mozilla/4.0");
