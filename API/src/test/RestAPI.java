@@ -11,7 +11,7 @@ public class RestAPI {
 		
 		System.out.println("\n");
 		System.out.println("----- 시작 : HttpURLConnection사용 POST방식 Rest API TEST -----");
-		 
+		  
 		try {
 			StringBuilder vStringBuilder = new StringBuilder();
 			String vStringLine;
