@@ -14,7 +14,7 @@ public class baekjoon3052 {
 			
 			for (int i = 0; i < 10; i++) {
 				h.add(sc.nextInt() % 42);
-			}
+			} 
 			sc.close();
 			System.out.println(h.size());
 	}
