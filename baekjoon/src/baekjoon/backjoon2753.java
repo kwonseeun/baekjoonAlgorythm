@@ -19,5 +19,4 @@ public class backjoon2753 {
 			System.out.println("0");
 		}
 	}
-
 }

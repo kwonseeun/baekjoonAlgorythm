@@ -22,5 +22,4 @@ public class baekjoon9498 {
 			System.out.println("F");
 		}
 	}
-
 }
