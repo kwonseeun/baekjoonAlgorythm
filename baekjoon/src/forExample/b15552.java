@@ -20,7 +20,6 @@ public class b15552 {
 			int b = Integer.parseInt(st.nextToken());
 			
 			System.out.println(a + b);
-			System.out.println(" ");
 		}
 	}
 
