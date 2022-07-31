@@ -14,5 +14,4 @@ public class b2742 {
 			System.out.println(i);
 		}
 	}
-
 }
