@@ -9,12 +9,11 @@ public class b11021 {
 		
 		int t = sc.nextInt();
 		
-		for (int i = 1; i < t; i++) {
+		for (int i = 1; i <= t; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			
-			System.out.println("Case #" + i + " " + (a+b));
+			System.out.println("Case #" + i + ":" + (a+b));
 		}
 	}
-
 }
