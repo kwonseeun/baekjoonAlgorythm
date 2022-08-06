@@ -9,9 +9,13 @@ public class b10871 {
 		
 		int s = sc.nextInt();
 		
-		for (int i = 0; i < args.length; i++) {
+		for (int i = 0; i <= s; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
+			
+			if (a < b) {
+				System.out.println();
+			}
 					
 		}
 	}
