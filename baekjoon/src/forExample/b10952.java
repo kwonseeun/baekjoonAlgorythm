@@ -15,7 +15,9 @@ public class b10952 {
 			
 			if (A==0 && B==0) {
 				sc.close();
+				break;
 			}
+			System.out.println(A+B);
 		}
 	}
 
