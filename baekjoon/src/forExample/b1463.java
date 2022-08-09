@@ -1,6 +1,7 @@
 package forExample;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class b1463 {
 
@@ -16,6 +17,9 @@ public class b1463 {
 		        sc.close();
 		    }
 
+		    private static int dp(int n) {
+		        if (n == 1)
+		       
 		        return d[n];
 	}
 
