@@ -18,6 +18,7 @@ public class b18310 {
 		for (int i = 0; i < N; i++) {
 			arr.add(Integer.parseInt(st.nextToken()));
 		}
+		Collections.sort(arr);
 		
 		System.out.println(arr.get((N-1)/2));
 	}
