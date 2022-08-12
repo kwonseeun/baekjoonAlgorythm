@@ -21,14 +21,20 @@ public class b2023 {
 			return;
 		}
 		for (int i = 1; i <10; i++) {
-			if (i == 2 || i == 4 || i == 6 || i == 8) {
-				if (isprime(num* 1 0 + 1)) {
+			if (i == 2 || i == 4 || i == 6 || i == 8) 
+				if (isprime(num* 10 + 1)) 
 					re(cnt+1, num*10+i);
 				}
 			}
 			
-		
+			static boolean isprime(int num) {
+				for (int i = 2; i <= num; i++) {
+					if (num % i == 0) {
+						return false;
+					}
+					return true;
+				}
+				return true;
 		}
 	}
 
-}
