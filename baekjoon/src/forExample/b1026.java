@@ -3,6 +3,7 @@ package forExample;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /* 옛날 옛적에 수학이 항상 큰 골치거리였던 나라가 있었다. 이 나라의 국왕 김지민은 다음과 
@@ -35,6 +36,16 @@ public class b1026 {
 			arrB[i] = Integer.parseInt(st.nextToken());
 			
 		br.close();
+		
+		// 정렬 
+		Arrays.sort(arrA);
+		Arrays.sort(arrB);
+		
+		for (int i = 0; i < n; i++) {
+			sum += (arrA[i] * arrB[n-i-1]);
+			
+			System.out.println(sum);
+		}
 	}
 
 }
