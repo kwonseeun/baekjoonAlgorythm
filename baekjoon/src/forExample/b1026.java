@@ -41,11 +41,6 @@ public class b1026 {
 		Arrays.sort(arrA);
 		Arrays.sort(arrB);
 		
-		for (int i = 0; i < n; i++) {
-			sum += (arrA[i] * arrB[n-i-1]);
-			
-			System.out.println(sum);
-		}
 	}
 
 }
