@@ -11,6 +11,7 @@ public class b2816 {
 	        for(int i = 0 ; i<n; i++) {
 	        	arr[i] = sc.next();
 	        }
+	        
 	    	for(int i = 0 ;i<n; i++) {
 	       		if(arr[i].equals("KBS1")) {//KBS1부터 첫번째로
 	       			String tmp = "";
@@ -25,6 +26,13 @@ public class b2816 {
 	        	else 
 	        		System.out.print(1);
 	       	}
+	    	
+	    	if(arr[1].equals("KBS2"))//KBS1을 첫번째로 옮기고 만약 KBS2가 두번째에 있다면 종료
+	        	System.exit(0);
+	    	for(int i = 0 ;i<n; i++) {
+	       		
+	       			System.out.print(1);
+	      }
 	}
 
 }
