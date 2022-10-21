@@ -26,6 +26,7 @@ public class B_최소_최대 {
 			if(arr[i] > max) max = arr[i];
 		}
 		
+		System.out.println(min + " " + max);
 		
 	}
 }
