@@ -1,5 +1,10 @@
 package baekjoon09;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+
 public class B_나머지 {
 	public static void main(String[] args) throws IOException {
 		// 1. 반복문을 사용 42로 나눈 나머지값을 배열 변수에 넣는다.
