@@ -1,0 +1,22 @@
+package TEST;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+	 public static void main(String[] args) {
+	        
+	        int []arr = {7, 5, 9, 0, 3, 1, 6, 2, 4, 8};
+	        
+	        int minIndex = 0; //가장 적은 원소의 인덱스
+	        
+	        for(int i=0; i < arr.length; i++){
+	            for(int j=i+1 ; j < arr.length; j++){
+	                if(arr[minIndex] > arr[j])
+	                    minIndex = j;
+	            }
+	            
+	
+	        }
+	        System.out.println(Arrays.toString(arr));
+	    }
+}
