@@ -15,7 +15,10 @@ public class ArrayTest {
 	                    minIndex = j;
 	            }
 	            
-	
+	            //스와프
+	            int tmp = arr[i];
+	            arr[i] = arr[minIndex];
+	            arr[minIndex] = tmp;
 	        }
 	        System.out.println(Arrays.toString(arr));
 	    }
