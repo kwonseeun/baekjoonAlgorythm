@@ -1,5 +1,12 @@
 package baekjoon09;
 
-public class B_접미사_배열 {
+import java.util.Scanner;
 
+public class B_접미사_배열 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.nextLine();
+		int size = str.length();
+		String[] arr = new String[size];
+	}
 }
