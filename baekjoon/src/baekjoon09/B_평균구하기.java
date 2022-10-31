@@ -14,6 +14,7 @@ public class B_평균구하기 {
 		long sum = 0;
 		long max = 0;
 		
+		// 배열 다시 탐색 
 		for (int i = 0; i < A.length; i++) {
 			if(A[i] > max ) max = A[i]; // 만약 A에서 가져온 값이 max 보다 크면 max에 저장 
 			sum+=A[i];
