@@ -18,7 +18,7 @@ public class B_평균구하기 {
 			if(A[i] > max ) max = A[i]; // 만약 A에서 가져온 값이 max 보다 크면 max에 저장 
 			sum+=A[i];
 		}
-		System.out.println(sum*100/max/N);
+		System.out.println(sum*100.0/max/N);
 		
 	}
 }
