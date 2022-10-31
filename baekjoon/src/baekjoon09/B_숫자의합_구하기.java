@@ -12,7 +12,7 @@ public class B_숫자의합_구하기 {
 		int sum = 0; // 초기화 
 		
 		for (int i = 0; i < cNum.length; i++) {
-			sum+= cNum[i] - '0'; // cNum에 있는 char값을 저장 후 아스키코드로 변환하고, int형으로 바꿔줄 때는 문자열로 마이너스를 해준다. 
+			sum+= cNum[i] - 48; // cNum에 있는 char값을 저장 후 아스키코드로 변환하고, int형으로 바꿔줄 때는 문자열로 마이너스를 해준다. 
 		}
 		System.out.println(sum);
 	}
