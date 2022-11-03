@@ -12,7 +12,12 @@ public class B_X보다_작은수 {
         int serialNum = Integer.parseInt(input1.split(" ")[0]); 
         String[] serial = input2.split(" ");
         String result = "";
-       
+        for(int i =0; i<serial.length; i++) {
+            int k =Integer.parseInt(serial[i]);
+            if(k < intX) {
+                result += " "+serial[i];
+            }
+        }
         System.out.println(result.trim());
     }
 }
