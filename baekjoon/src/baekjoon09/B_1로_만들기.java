@@ -1,5 +1,7 @@
 package baekjoon09;
 
+import java.util.Scanner;
+
 public class B_1로_만들기 {
 	 public static void main(String[] args) {
 	        Scanner scan = new Scanner(System.in);
