@@ -17,7 +17,13 @@ public class B_주식 {
 				sto[i]=Integer.parseInt(st.nextToken());
 			}
 			
-			
+			for (int i = 1; i <= cnt; i++) {
+				if(sto[cnt-i]>max) {
+					max = sto[cnt-i];
+				}else {
+					ans+=(max-sto[cnt-i]);
+				}
+			}
 			sb.append(ans+"\n");
 		}
 		System.out.println(sb);
