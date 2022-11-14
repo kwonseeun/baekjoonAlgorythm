@@ -2,11 +2,12 @@ package baekjoon08;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class B_4888_아_자바 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -20,6 +21,20 @@ public class B_4888_아_자바 {
 			if(c == 'a') {
 				pCount++;
 			}
+		}
+		
+		int dCount = 0;
+		for (int i = 0; i < inputD.length(); i++) {
+			char c = inputD.charAt(i);
+			if( c== 'a') {
+				dCount++;
+			}
+		}
+		
+		if(dCount <= pCount) {
+			bw.write("go");
+		}else {
+			bw.write("no");
 		}
 	}
 }
