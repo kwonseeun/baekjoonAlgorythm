@@ -1,5 +1,25 @@
 package baekjoon08;
 
-public class B_4888_아_자바 {
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 
+public class B_4888_아_자바 {
+	public static void main(String[] args) {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
+		String inputP = br.readLine();
+		String inputD = br.readLine();
+		
+		int pCount = 0;
+		for (int i = 0; i < inputP.length(); i++) {
+			char c = inputP.charAt(i);
+			if(c == 'a') {
+				pCount++;
+			}
+		}
+	}
 }
