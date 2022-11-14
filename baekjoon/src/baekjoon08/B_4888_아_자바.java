@@ -36,5 +36,7 @@ public class B_4888_아_자바 {
 		}else {
 			bw.write("no");
 		}
+		bw.flush();
+		bw.close();
 	}
 }
