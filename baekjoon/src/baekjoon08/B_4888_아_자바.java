@@ -32,8 +32,10 @@ public class B_4888_아_자바 {
 		}
 		
 		if(dCount <= pCount) {
+			
 			bw.write("go");
 		}else {
+			
 			bw.write("no");
 		}
 		bw.flush();
