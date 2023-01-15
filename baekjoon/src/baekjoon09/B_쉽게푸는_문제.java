@@ -23,5 +23,10 @@ public class B_쉽게푸는_문제 {
 			}
 		}
 		
+		int sum = 0;
+		for (int i = A; i <= B; i++) {
+			sum += arr[i];
+		}
+		System.out.println(sum);
 	}
 }
