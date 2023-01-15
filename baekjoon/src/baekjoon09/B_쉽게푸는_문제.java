@@ -1,0 +1,27 @@
+package baekjoon09;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class B_쉽게푸는_문제 {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int A = Integer.parseInt(st.nextToken());
+		int B = Integer.parseInt(st.nextToken());
+		int [] arr = new int[1001];
+		
+		int k = 1;
+		for (int i = 1; k<1001 ; i++) {
+			for (int j = 0; j < i; j++) {
+				if(k==1001) break; 
+				arr[k]=i;
+				k++;
+			}
+		}
+		
+	}
+}
