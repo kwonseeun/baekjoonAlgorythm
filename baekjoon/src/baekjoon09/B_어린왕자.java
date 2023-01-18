@@ -17,7 +17,7 @@ public class B_어린왕자 {
 	        int length = scanner.nextInt();
 	        scanner.nextLine();
 	        
-	      
+	       
 	        scanner.close();
 	    }
 	    
@@ -36,4 +36,5 @@ public class B_어린왕자 {
 	    {
 	        return Math.sqrt(Math.pow(xo - x, 2) + Math.pow(yo - y, 2)) < r;
 	    }
+	}
 }
