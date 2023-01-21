@@ -18,7 +18,12 @@ public class B_평균은넘겠지 {
 			tmp = br.readLine().split(" ");
 			n = Integer.parseInt(tmp[0]);
 			
+			for(int i = 1; i < tmp.length; i++) sum += Integer.parseInt(tmp[i]);
+			for(int i = 1; i < tmp.length; i++) {
+				if(Integer.parseInt(tmp[i]) > sum/n) cnt++;
 			}
+			bw.write(String.format("%.3f", cnt/(double)n*100) + "%" + "\n");
+		}
 		bw.flush();
 		bw.close();
 	}
