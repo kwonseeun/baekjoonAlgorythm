@@ -23,5 +23,12 @@ public class B_ISBN {
         System.out.println("The 1-3-sum is " + sum);
     }
 
-  
+    private static int getMod123() {
+        if (mod13 == 1) {
+            mod13 = 3;
+        } else {
+            mod13 = 1;
+        }
+        return mod13;
+    }
 }
