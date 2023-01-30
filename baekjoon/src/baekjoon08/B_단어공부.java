@@ -18,7 +18,15 @@ public class B_단어공부 {
 	        int max = -1;
 	        int ch = -2;
 
-	       
+	        for(int i=0;i<26;i++){
+	            if(max < al[i]){
+	                max = al[i];
+	                ch = i;
+	            }
+	            else if(max == al[i]){
+	                ch = -2; //이게 핵심이었다고 생각함. 아래 글로 서술하겠음
+	            }
+	        }
 
 	        System.out.println((char)(ch+65)); //아스키코드 63은 ?임
 	    }
