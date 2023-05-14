@@ -22,5 +22,12 @@ public class B_2738_행렬덧셈 {
 				}
 			}
 		}
+		
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < M; j++) {
+				System.out.println(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
 	}
 }
