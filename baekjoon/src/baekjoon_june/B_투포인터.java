@@ -23,6 +23,6 @@ public class B_투포인터 {
 	        Scanner kb = new Scanner(System.in);
 	        int n=kb.nextInt();
 
-	        System.out.print(((B_투포인터) T).solution(n));
+	        System.out.print(T.solution(n));
 	    }
 }
