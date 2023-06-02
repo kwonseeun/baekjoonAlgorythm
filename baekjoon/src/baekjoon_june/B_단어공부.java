@@ -31,6 +31,5 @@ public class B_단어공부 {
 		}
 		bw.write(maxChar);
 		br.close();
-		bw.close();
 	}
 }
