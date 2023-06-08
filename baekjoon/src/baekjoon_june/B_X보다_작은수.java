@@ -12,7 +12,7 @@ public class B_X보다_작은수 {
 		for(int i=0; i<A.length; i++) {
 			A[i] = sc.nextInt();
 			if(A[i] < X) {
-				System.out.printf("%d ", A[i]);
+				System.out.printf("%d ", A[i]); 
 			}
 		}
 	}
