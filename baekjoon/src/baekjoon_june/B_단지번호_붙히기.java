@@ -67,7 +67,6 @@ public class B_단지번호_붙히기 {
 			}
 			if(count > 0) answer.add(count);
 		}
-		
 		public static boolean isIn(int r, int c) {
 			return r >= 0 && r <N && c >= 0 && c < N;
 		}
