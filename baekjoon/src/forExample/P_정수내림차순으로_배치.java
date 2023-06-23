@@ -25,6 +25,6 @@ public class P_정수내림차순으로_배치 {
 	            strResult+=String.valueOf(i);
 	        }
 	        answer = Long.parseLong(strResult);
-	        return answer;
+	        return answer; 
 	  }
 }
