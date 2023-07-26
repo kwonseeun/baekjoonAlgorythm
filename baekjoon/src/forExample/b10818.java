@@ -14,5 +14,5 @@ public class b10818 {
 		Arrays.sort(arr);
 		System.out.println(arr[0]);
 		System.out.println(arr[arr.length-1]);
-	}
+	} 
 }
