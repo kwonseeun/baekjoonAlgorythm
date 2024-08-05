@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Boj_2563_색종이 {
+public class B_X보다_작은수 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,8 +30,6 @@ public class Boj_2563_색종이 {
 			}
 		}
 		System.out.println(answer);
-		
-\
 	}
 
 }
